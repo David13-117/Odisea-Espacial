@@ -7,6 +7,7 @@ public class Planeta {
             { "Marte", "78", "El 'planeta rojo', tiene una atmósfera delgada y dos lunas." },
             { "Júpiter", "628", "El más grande, con la Gran Mancha Roja." },
             { "Saturno", "1275", "Famoso por sus anillos espectaculares." },
+            { "Neptuno", "824", "Es un gigante de hielo y gas, con una atmósfera densa y azulada"}
     };
 
     // metodo de mostrar los planetas
