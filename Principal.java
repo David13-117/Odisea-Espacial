@@ -51,7 +51,12 @@ public class Principal {
           nave = entrada.nextInt();
           System.out.println("Ingrese el número de pasajeros");
           pasajeros = entrada.nextInt();
-          Naves.naveSeleccionada(nave, pasajeros);
+          int pas = Integer.parseInt(Naves.naves[nave-1][2]);
+          if(pas<pasajeros){
+            System.out.println("Validar número de pasajeros");
+          }else{
+            Naves.naveSeleccionada(nave, pasajeros);
+          }
           System.out.println("1. Volver al menú");
           option = entrada.nextInt();
           switch (option) {
